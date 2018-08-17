@@ -4,7 +4,9 @@
 
 .nav-text {
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: black !important;
 }
 
-/* #ed6f2e */
+.nav-text:hover {
+  color:#ed6f2e !important;
+}
