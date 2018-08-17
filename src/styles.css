@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+.header-design {
+  background-color: black;
+  color: white;
+  background-image: url('/assets/background.jpg');
+  border-left: solid 5px #f60;
+  padding: 14px 0px 8px 15px;
+  margin-bottom: 25px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+}

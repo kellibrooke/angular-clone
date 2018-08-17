@@ -1,0 +1,14 @@
+.headline-text {
+  background-color: white;
+  font-size: 24px;
+  position:absolute;
+  bottom: 8px;
+  left: 0px;
+  right: 150px;
+  bottom: 15px;
+  opacity: .86;
+}
+
+.headline-holder {
+  position: relative;
+}
