@@ -1,12 +1,21 @@
 .headline-text {
   background-color: white;
+  color: white;
   font-size: 24px;
+  padding: 15px;
   position:absolute;
   bottom: 8px;
   left: 0px;
   right: 150px;
   bottom: 15px;
+  opacity: .80;
+  line-height: 1.5;
+}
+
+.highlight {
+  background-color: black;
   opacity: .86;
+  padding: 4px;
 }
 
 .headline-holder {
