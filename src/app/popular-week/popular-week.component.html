@@ -1,6 +1,17 @@
 <div class="header-design">
   MOST POPULAR THIS WEEK
 </div>
-<ul>
-  <li *ngFor="let story of weekList | week">{{story.title}}</li>
-</ul>
+
+  <div *ngFor="let story of weekList | month">
+    <div class="row">
+      <div class="col-sm-12">
+        <div>
+          <a href="{{story.url}}"><img src="{{story.photoPath}}"></a>
+        </div>
+        <div class="right-cols">
+          <a href="{{story.url}}">{{story.title}}</a>
+        </div>
+
+      </div>
+    </div>
+  </div>

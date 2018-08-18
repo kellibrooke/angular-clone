@@ -11,7 +11,7 @@ export class AppComponent {
   stories: Story[] = [
     new Story('7 Reasons Why White People Should Not Wear Black Hairstyles', './assets/hairstyles.png', ['today', 'month', 'week'], 'https://everydayfeminism.com/2015/07/white-people-black-hairstyles/'),
     new Story('3 Differences Between the Terms ‘Gay’ and ‘Queer’ — and Why It Matters', './assets/gayqueer.jpg', ['today', 'month', 'week'], 'https://everydayfeminism.com/2016/03/difference-between-gay-queer/'),
-    new Story('10 Ways to Avoid Everyday Ableism', './assets/abelism.jpg', ['today'], 'https://everydayfeminism.com/2013/10/avoid-everyday-ableism/'),
+    new Story('10 Ways to Avoid Everyday Ableism', './assets/ableism.jpg', ['today'], 'https://everydayfeminism.com/2013/10/avoid-everyday-ableism/'),
     new Story('Intent vs. Impact: Why Your Intentions Don’t Really Matter', './assets/intent.jpg', ['today', 'week'], 'https://everydayfeminism.com/2013/07/intentions-dont-really-matter/'),
     new Story('Meet the 5 Black Trans and Gender Variant Artists from the Global South Who are Revolutionizing Fashion, Music, and Visual Art', './assets/transartists.jpg', ['latest'], 'https://everydayfeminism.com/2018/08/black-trans-gender-variant-artists-global-south/'),
     new Story('White People: This Is How To Check Your Privilege When Asking People of Color For Their Labor', './assets/privilege.jpg', ['latest'], 'https://everydayfeminism.com/2018/07/white-people-this-is-how-to-check-your-privilege-when-asking-people-of-color-for-their-labor/'),

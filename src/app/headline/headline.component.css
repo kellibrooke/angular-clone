@@ -20,4 +20,14 @@
 
 .headline-holder {
   position: relative;
+  margin-bottom: 30px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #ed6f2e;
+  text-decoration: none;
 }

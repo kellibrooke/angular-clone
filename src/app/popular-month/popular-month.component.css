@@ -1,0 +1,16 @@
+.right-cols {
+  border-bottom: black dotted 1px;
+  margin-bottom: 20px;
+  padding:10px 0px;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #ed6f2e;
+  text-decoration: none;
+}

@@ -1,6 +1,14 @@
 <div class="header-design">
   TODAY'S MOST POPULAR
 </div>
-<ul>
-  <li *ngFor="let story of todayList | today">{{story.title}}</li>
-</ul>
+
+<div *ngFor="let story of todayList | today">
+  <div class="row left-cols">
+    <div class="col-sm-6">
+      <a href="{{story.url}}"><img src="{{story.photoPath}}"></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="{{story.url}}">{{story.title}}</a>
+    </div>
+  </div>
+</div>

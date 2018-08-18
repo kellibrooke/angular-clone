@@ -1,6 +1,14 @@
 <div class="header-design">
   MOST RECENT
 </div>
-<ul>
-  <li *ngFor="let item of latestList | recent">{{item.title}}</li>
-</ul>
+
+<div *ngFor="let story of latestList | recent">
+  <div class="row left-cols">
+    <div class="col-sm-6">
+      <a href="{{story.url}}"><img src="{{story.photoPath}}"></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="{{story.url}}">{{story.title}}</a>
+    </div>
+  </div>
+</div>
