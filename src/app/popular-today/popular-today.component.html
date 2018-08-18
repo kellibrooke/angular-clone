@@ -1,3 +1,6 @@
 <div class="header-design">
   TODAY'S MOST POPULAR
 </div>
+<ul>
+  <li *ngFor="let story of todayList | today">{{story.title}}</li>
+</ul>
