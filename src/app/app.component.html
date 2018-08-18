@@ -65,9 +65,28 @@
           <app-popular-today [todayList]="stories"></app-popular-today>
         </div>
       </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <app-most-recent [latestList]="stories"></app-most-recent>
+        </div>
+      </div>
     </div>
     <div class="col-sm-4">
-      <app-sign-up></app-sign-up>
+      <div class="row">
+        <div class="col-sm-12">
+          <app-sign-up></app-sign-up>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <app-popular-month [monthList]="stories"></app-popular-month>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <app-popular-week [weekList]="stories"></app-popular-week>
+        </div>
+      </div>
     </div>
   </div>
 
