@@ -4,7 +4,7 @@
 
 ## Description
 A clone of the EverydayFeminism website using Angular.
-[Original website] https://everydayfeminism.com
+Original website: https://everydayfeminism.com
 
 ## User Stories
 
